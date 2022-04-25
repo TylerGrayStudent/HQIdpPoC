@@ -12,7 +12,7 @@ export class AuthService {
   handleAzureToken(idToken: string): Observable<string> {
     console.log(idToken);
     return this.http.get<string>(
-      `${environment.webApiUrl}/login/b2c/franchise`,
+      `${environment.webApiUrl}/login/b2c/messaging`,
       this._getOptions(idToken)
     );
   }
