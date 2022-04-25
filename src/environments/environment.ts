@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  webApiUrl: 'https://localhost:44378/api',
+  webApiUrl: 'https://hqportalservices-test.azurewebsites.net/api',
 };
 
 /*
